@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Psychic Game</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" type="text/css" media="screen" href="assets/css/reset.css" />
+    <link rel="stylesheet" type="text/css" media="screen" href="assets/css/style.css" />
+</head>
+<body>
+    <h1>The Psychic Game</h1>
+
+<!-- this should be a random array selection of a letter -->
+    <p>Guess what letter I'm thinking of!</p>
+<!-- then we need to have a DOM event for keyup, looking for that letter -->
+
+    <p>Wins: <span id="wins">0</span></p>
+<!-- keeps track of games ended by guessing the letter -->
+    <p>Losses: <span id="losses">0</span></p>
+<!-- keep track of games ended by reaching 0 guesses -->
+    <p>Guesses Left: <span id="gLeft">10</span></p>
+<!-- list remaining guesses from 10, reset game if hits 0 -->
+
+    <p>Your Guesses So Far: <span id="guesses"></span></p>
+<!-- each keyup counts as a guess - each keyup should also be displayed so they know what they guessed -->
+
+<script src="assets/javascript/game.js"></script>
+</body>
+</html>
