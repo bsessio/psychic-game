@@ -48,6 +48,8 @@ function clickTracker(event) {
         // increase win count
         win = win + 1;
         winTracker.innerHTML = win;
+        // reset Guesses so far
+        guesses.innerHTML = "";
         // reset game
         resetGame();
     }
