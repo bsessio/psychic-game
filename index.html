@@ -11,9 +11,12 @@
 <body>
     <h1>The Psychic Game</h1>
 
+    <img src="http://4.bp.blogspot.com/_A5umoCtTIcw/R2Y_KEjrPwI/AAAAAAAAAN0/KUECop3bnKw/s400/carnac.jpg">
 <!-- this should be a random array selection of a letter -->
-    <p>Guess what letter I'm thinking of!</p>
+        <h2>G<span class="lowerUpper">uess what letter </span>C<span class="lowerUpper">arnac is thinking of!</span></h2>
 <!-- then we need to have a DOM event for keyup, looking for that letter -->
+
+<div class="paleRed">
 
     <p>Wins: <span id="wins">0</span></p>
 <!-- keeps track of games ended by guessing the letter -->
@@ -24,6 +27,7 @@
 
     <p>Your Guesses So Far: <span id="guesses"></span></p>
 <!-- each keyup counts as a guess - each keyup should also be displayed so they know what they guessed -->
+</div>
 
 <script src="assets/javascript/game.js"></script>
 </body>
